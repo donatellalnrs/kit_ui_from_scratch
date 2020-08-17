@@ -1,0 +1,394 @@
+/************************/
+/* 	    COULEURS        */
+/************************/
+
+.primary {
+	background-color: #1E3888;
+	color: white;
+}
+
+.text-primary {
+  color: #1E3888;	
+}
+
+
+.secondary {
+	background-color: #47a8bd;
+	color: white;
+}
+
+.text-secondary {
+  color: #47a8bd;	
+}
+
+.dark {
+	background-color: #141414;
+	color: white;
+}
+
+.text-dark {
+  color: #141414;	
+}
+
+
+.medium-light {
+	background-color: #787878;
+	color: white;
+}
+
+.text-medium-light {
+  color: #787878;	
+}
+
+
+.light {
+	background-color: #f0f0f0;
+	color: #141414;
+}
+
+.text-light {
+  color: #f0f0f0;	
+}
+
+
+.warning {
+	background-color: #ffad69;
+	color: #141414;
+}
+
+.text-warning {
+  color: #ffad69;	
+}
+
+
+.danger {
+	background-color: #9c3848;
+	color: white;
+}
+
+.text-danger {
+  color: #9c3848;	
+}
+
+
+.success {
+	background-color: #25a18e;
+	color: white;
+}
+
+.text-success {
+  color: #25a18e;	
+}
+
+.info {
+	background-color: #1e3888;
+	color: white;
+}
+
+.text-info {
+  color: #1e3888;	
+}
+
+
+
+
+/************************/
+/* 	    POLICES        */
+/************************/
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Karla", sans-serif;
+}
+
+
+p, .lead, blockquote, ul, li, ol, label {
+	font-family: "Assistant", sans-serif; 
+}
+
+
+
+/************************/
+/* 	    BOUTONS       */
+/************************/
+
+
+.btn {
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;	
+  border-radius:10px;
+  font-family: "Assistant", sans-serif; 
+}
+
+.btn-outline {
+  background-color: white;
+  transition-duration: 0.4s;
+}
+
+.btn-outline-primary {
+  border: 2px solid #1E3888;
+  color: #1E3888; 
+}
+
+.btn-outline-primary:hover {
+  background-color: #1E3888; 
+  color: white; 
+}
+
+.btn-outline-secondary {
+  border: 2px solid #47a8bd;
+  color: #47a8bd;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #47a8bd;
+  color: white;
+}
+
+.btn-outline-dark {
+  border: 2px solid #141414;
+  color: #141414;
+}
+
+.btn-outline-dark:hover {
+  background-color: #141414;
+  color: white;
+}
+
+.btn-outline-medium-light {
+  border: 2px solid #787878;
+  color: #787878;
+}
+
+.btn-outline-medium-light:hover {
+  background-color: #787878;
+  color: white;
+}
+
+.btn-outline-light {
+  border: 2px solid #f0f0f0;
+  color: #f0f0f0;
+}
+
+.btn-outline-light:hover {
+  background-color: #f0f0f0;
+  color: #141414;
+}
+
+.btn-outline-warning {
+  border: 2px solid #ffad69;
+  color: #ffad69;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffad69;
+  color: #141414;
+}
+
+.btn-outline-danger {
+  border: 2px solid #9c3848;
+  color: #9c3848;
+}
+
+.btn-outline-danger:hover {
+  background-color: #9c3848;
+  color: white;
+}
+
+.btn-outline-success {
+  border: 2px solid #25a18e;
+  color: #25a18e;
+}
+
+.btn-outline-success:hover {
+  background-color: #25a18e;
+  color: white;
+}
+
+.btn-outline-info {
+  border: 2px solid #47a8bd;
+  color: #47a8bd;
+}
+
+.btn-outline-info:hover {
+  background-color: #47a8bd;
+  color: white;
+}
+
+.btn-lg {
+  font-size: 24px;
+  padding: 15px 25px;
+}
+
+.btn-sm {
+  font-size: 10px;
+  padding: 5px 10px;
+}
+
+
+
+/************************/
+/* 	   FORMULAIRES      */
+/************************/
+
+input,
+button,
+select,
+textarea, 
+option {
+  width: 100%;
+  margin: 4px 0;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  font-family: "Electra", "Montserrat", sans-serif;
+  font-size: "Electra", "Montserrat", sans-serif;
+  line-height: "Electra", "Montserrat", sans-serif;
+}
+
+input:focus {
+  background-color: #f0f0f0;
+}
+
+
+
+/************************/
+/* 	     LISTES         */
+/************************/
+
+ul.no-bullets {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0; 
+}
+
+ul.no-bullets li {
+  border: 1px solid #ddd; 
+  margin-top: -1px; 
+  background-color: #f6f6f6; 
+  padding: 12px; 
+}
+
+.list-column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+}
+
+.list-item {
+  position: relative;
+  display: block;
+  padding: 0.25rem 1.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  color: #141414;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+.list-item:hover {
+  background-color: #1E3888;
+  color: white;
+}
+
+.list-para {
+  width: 100%; 
+  justify-content: space-between;
+}
+
+.list-text {
+  width: 100%; 
+  justify-content: space-between;
+}
+
+
+/************************/
+/* 	      CARTES        */
+/************************/
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  font-family: "Assistant", sans-serif; 
+}
+
+.card-img-top {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.card-header {
+  padding: 0.25rem 1rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1rem;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  font-family: "Karla", sans-serif;
+}
+
+.card-subtitle {
+  margin-top: -0.45rem;
+  margin-bottom: 0.5rem;
+  font-family: "Karla", sans-serif;
+}
+
+.card-text {
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+
+.card-link {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius:10px;
+}
+
+.card-link:hover {
+  background-color: #787878;
+  color: white;
+}
+
+.card-profile {
+  
+}
+
+.card-avatar-img {
+  border-radius: 50%;
+  width:150px;
+  height:150px;
+  padding: 10px 20px;
+  vertical-align: middle;
+  float: left;
+}
